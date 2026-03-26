@@ -117,25 +117,28 @@ In 3–5 sentences, explain:
 
 ## Example Output Format (Simplified)
 
-
+```
 Order 1:
 Items: [RC10T7 Truck, Motor]
 Subtotal: $579.98
 Coupon: MAR3026 (-$30)
 Shipping: $0
 Final Total: $549.98
+
 Order 2:
 Items: [ESC, Battery]
 Subtotal: $200.98
 Coupon: MAR1526 (-$15)
 Shipping: $0
 Final Total: $185.98
+
 Order 3:
 Items: [Shock Oil 25wt, Shock Oil 27.5wt, Wheels, Tires…]
 Subtotal: $71.47
 Coupon: None
 Shipping: $10
 Final Total: $81.47
-Total Savings: $45 (coupons) - $10 (shipping) = $35
 
+Total Savings: $45 (coupons) - $10 (shipping) = $35
+```
 
