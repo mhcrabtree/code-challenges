@@ -5,7 +5,7 @@ Online retailers often offer multiple coupon codes, each with their own minimum 
 
 - Only **one coupon** may be applied per order.
 - Each coupon may be used **at most once**.
-- Orders that total **$100 or more receive free shipping**.
+- Orders that total **$99 or more receive free shipping**.
 - Your goal is to **maximize total savings** by splitting a shopping cart into multiple orders.
 
 This assignment asks you to design an algorithm that automatically splits a shopping cart into multiple orders to achieve the greatest possible discount.
