@@ -47,6 +47,8 @@ Example coupons:
 | MAR1026 | 100 | 10 |
 | MAR1526 | 125 | 15 |
 | MAR3026 | 350 | 30 |
+| MAR526 | 50 | 5 |
+| MINISLASH | 439.90 | 40 |
 
 ### 3. Free Shipping Rule
 Any order with a total **before discounts** of **$100 or more** receives free shipping.  
