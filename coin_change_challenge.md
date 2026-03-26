@@ -51,8 +51,8 @@ Example coupons:
 | MINISLASH | 439.90 | 40 |
 
 ### 3. Free Shipping Rule
-Any order with a total **before discounts** of **$100 or more** receives free shipping.  
-Orders under $100 incur a shipping cost (you may assume a fixed cost, e.g., $10).
+Any order with a total **before discounts** of **$99 or more** receives free shipping.  
+Orders under $99 incur a shipping cost (you may assume a fixed cost, e.g., $10).
 
 ---
 
@@ -67,7 +67,7 @@ Write an algorithm that:
 5. **Ensures each item appears in exactly one order.**
 6. **Maximizes total savings**, where savings =  
    - Sum of coupon discounts  
-   - Minus any shipping fees for orders under $100
+   - Minus any shipping fees for orders under $99
 
 Your algorithm should output:
 
@@ -113,7 +113,7 @@ In 3–5 sentences, explain:
   - Items must be grouped into “buckets” (orders) that meet coupon thresholds.
 - A greedy approach may work well, but it is **not guaranteed optimal**.
 - A dynamic programming or search‑based approach may find better solutions.
-- Think carefully about the **free shipping threshold**—sometimes adding a small item to reach $100 saves more than the coupon itself.
+- Think carefully about the **free shipping threshold**—sometimes adding a small item to reach $99 saves more than the coupon itself.
 
 ---
 
